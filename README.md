@@ -1,7 +1,7 @@
 # bom-vizinho
 Bom Vizinho
 
-Funcionalidades:
+##Funcionalidades:
 
 - 0 - Auth (Facebook, google+, twitter)
 - 1 - Workflow inserções de bens (UX)
@@ -15,7 +15,7 @@ Funcionalidades:
 - 7 - Sistema de tags
 - 8 - sistema de sugestões - lista de vizinhos (estilo Linkedin)
 
-SE - serviços de informação (backend)
+##SE - serviços de informação (backend)
 
 - Filipe
 - Rafael
@@ -24,7 +24,7 @@ SE - serviços de informação (backend)
 - Nuno
 - Huntero
 
-FE - Frontend
+##FE - Frontend
 
 - Filipe
 - Helder
@@ -33,7 +33,7 @@ FE - Frontend
 - Ricardo
 - Huntero
 
-UX - Interação com o utilizador
+##UX - Interação com o utilizador
 
 - Carlos
 - Rafael
@@ -41,23 +41,23 @@ UX - Interação com o utilizador
 - Ricardo
 - Nuno
 
-Backend
+##Backend
 
 - Auth (Poc)
     - serviço backend vnext sessão utilizador
     - Html starter com auth
 - Logica motor de pesquisa (se houver tempo)
 
-Frontend
+##Frontend
 
 - A partir de wireframes de UX
 - Fazer base da APP em Html/Css/js
 
-UX
+##UX
 
 - Gerar de doc que descreve a interação do usar da app no workflow inserção/necessidade de bem
 
-Design
+##Design
 
 - Mockups/wireframes de
     - workflow necessidade/inserção bem
