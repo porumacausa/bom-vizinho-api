@@ -6,6 +6,31 @@ Se já és membro da equipa no GitHub, [junta-te à conversa no Gitter](https://
 
 Se ainda não és membro da [equipa Código por uma Causa](https://github.com/orgs/porumacausa/people), deixa-nos uma [nota nos issues com o teu user to GitHub](https://github.com/porumacausa/brainstorming/issues) para que te possamos adicionar.
 
+## Máquina Virtual de desenvolvimento
+Caso queiras experimentar o projeto sem instalar as ferramentas de desenvolvimento na tua máquina, podes usar uma máquina virtual já preparada.
+Para iniciar a máquina virtual necessitas de ter o [Virtual Box](https://www.virtualbox.org/) e o [Vagrant](https://www.vagrantup.com/downloads.html) instalados.
+
+Necessitas também de clonar o repositório do projeto para uma pasta na tua máquina. Depois, na linha de comandos dentro da pasta do projeto só tens que fazer ```vagrant up``` e esperar que o Vagrant inicie a máquina virtual.
+
+No final, terás uma nova máquina virtual no Virtual Box que podes lançar. O user é 'vagrant' com a password 'vagrant'.
+No Desktop terás um link para iniciar o Visual Studio Code e o projeto estará disponivel em '/vagrant'.
+
+Para iniciar a aplicação, tens que fazer na linha de comandos da máquina virtual:
+```Shell
+# change do project folder
+cd /vagrant
+
+# restore project dependencies
+dnu restore
+
+# start-up kestrel app server
+dnx -p ./src/BomVizinhoAPI web
+```
+
+Depois, para testar o acesso à API, abre ```http://localhost:5000/api/Auth``` no teu browser.
+
+Podes ver mais informação sobre o ASP.NET 5 no site da [documentação](https://docs.asp.net/en/latest/getting-started/index.html).
+
 ##Funcionalidades:
 
 - 0 - Auth (Facebook, google+, twitter)
